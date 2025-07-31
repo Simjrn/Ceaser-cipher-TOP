@@ -14,8 +14,8 @@ def ceaser_cipher(message, change) # message is what we're encoding, change is h
       end
       char = numtoword[char] # change the numbers into letters 
       result += char
+      return char
     end
   end
-  return char
 end
 ceaser_cipher("Pez", 4)         
