@@ -15,6 +15,9 @@ finish = {}
 def conversion2(convert)
     for number in convert do
         number += num
+        if number > 26
+            number -= 26!
+        end
         finish.push[numtoword[num]]
     end
 end
