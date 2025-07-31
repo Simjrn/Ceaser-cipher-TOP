@@ -6,6 +6,7 @@ def ceaser_cipher(message, change) # message is what we're encoding, change is h
   message.each_char do |char| # Repeat for every character in the message
     if char == " "
       result += char
+      return char
     else
       char = wordtonum[char] # use the first hash to change all the letters into numbers
       char += change # add the amount we're changing by onto the numbers
