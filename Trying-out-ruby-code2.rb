@@ -20,3 +20,4 @@ def conversion2(convert)
 end
 conversion1(str)!
 puts conversion2(converted1)
+puts "That's that done!"
